@@ -1,38 +1,52 @@
-# 🤖 OpenClaw Skills
+# 🤖 OpenClaw Skills 技能仓库
 
-AI 助手技能集合 | Powered by OpenClaw
-
----
-
-## 📦 已上传 Skills (14个)
-
-| # | Skill | 描述 |
-|---|-------|------|
-| 1 | stock-analysis-10d | A股十维深度分析 (1000分制) |
-| 2 | stock-analysis | 股票/加密货币分析 |
-| 3 | stock-watcher | 股票监控与自选股 |
-| 4 | fundamental-stock-analysis | 基本面分析 |
-| 5 | stock-info-explorer | Yahoo Finance 数据 |
-| 6 | stock-quote | 股票报价 |
-| 7 | summarize | URL/文件摘要 |
-| 8 | translate | 翻译服务 |
-| 9 | healthcheck | 健康追踪 (饮水/睡眠) |
-| 10 | security-auditor | 代码安全审计 |
-| 11 | skill-vetter | 技能安全审查 |
-| 12 | find-skills-0-1-0 | 技能发现 |
-| 13 | self-improving-agent | 自我优化代理 |
-| 14 | mcporter | MCP 服务器管理 |
+> AI 助手技能集合 | 来自 ClawHub 技能市场
 
 ---
 
-## 🚀 安装
+## 📦 技能列表 (共 8 个)
+
+### 📈 股票分析类
+
+| 技能名 | 中文名 | 描述 |
+|--------|--------|------|
+| china-stock-analysis | 中国股票分析 | A股深度分析工具 |
+| new-akshare-stock | Akshare股票 | 基于akshare数据源的股票分析 |
+| stock-valuation-monitor | 估值监控 | 股票估值实时监控 |
+
+### 🐙 GitHub 类
+
+| 技能名 | 中文名 | 描述 |
+|--------|--------|------|
+| openclaw-github-assistant | GitHub助手 | GitHub仓库管理助手 |
+| github-cli | GitHub CLI | 命令行GitHub工具 |
+| github-ops | GitHub运维 | GitHub运维自动化 |
+| github-search | GitHub搜索 | 代码仓库搜索 |
+| github-issue-resolver | Issue解决 | GitHub问题处理 |
+
+---
+
+## 🚀 安装方法
 
 ```bash
-npx clawhub@latest install <skill-name>
-```
+# 安装单个技能
+clawhub install <技能名>
 
-更多: https://clawhub.ai/skills
+# 示例
+clawhub install china-stock-analysis
+clawhub install openclaw-github-assistant
+```
 
 ---
 
-*Updated: 2026-03-24*
+## 📖 使用说明
+
+1. 确保已安装 OpenClaw
+2. 使用 `clawhub install <技能名>` 安装
+3. 根据技能文档使用
+
+更多技能: https://clawhub.ai/skills
+
+---
+
+*更新于: 2026-03-24*
